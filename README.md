@@ -1,6 +1,6 @@
 # React Chat App
 
-[Live](https://osman-react-chat.netlify.app/)
+[Live](https://oe-react-chat.netlify.app/)
 
 ## Starting Project
 
