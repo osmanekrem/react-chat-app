@@ -14,7 +14,7 @@
   
   .textInput {
     padding: 10px 30px;
-    width: calc(100vw - 80px);
+    width: calc(100vw - 140px);
     font-size: 16px;
     height: 30px;
     outline: none;
@@ -26,6 +26,29 @@
 
   }
   
+  .sendButton {
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    font-size: 16px;
+    outline: none;
+    border-radius: 50px;
+    background-color: rgb(73, 185, 255);
+    cursor: pointer;
+    color: #fff;
+    border: none;
+    margin: 10px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+  }
+
+  .sendButton > svg {
+      transform: scale(0.7);
+      left: -10%;
+      position: relative;
+  }
+
   .chatItem {
     font-size: 18px;
     color: #333;
