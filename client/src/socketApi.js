@@ -3,7 +3,7 @@ import io from 'socket.io-client';
 let socket;
 
 export const init = () => {
-    socket = io('https://osman-react-chat-app.herokuapp.com/', {
+    socket = io('https://oe-chat.onrender.com', {
         transports: ['websocket'],
     });
 }
